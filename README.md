@@ -81,5 +81,5 @@ Comming soon !
 ```
 
 # ✏️ Author
-@ Shiku Kaito  
+@ Kaito Shiku
 ・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
