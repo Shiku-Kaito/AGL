@@ -7,7 +7,7 @@ Shikui Kaito, Kazuya Nishimura, Shinnosuke Matsuo, Yasuhiro Kojima, Ryoma Bise
 
 
 
-## 📑Abstract
+## 📑 Abstract
 *Developing neural network models to estimate spatial gene expression from pathological images is important for overcoming the high observational costs associated with spatial gene expression data.
 In prior studies, only a small subset of highly variable genes has been used for expression estimation, despite tens of thousands of genes being observed, in order to enable evaluation that mitigates the impact of observational noise. Genes outside this subset have been excluded from the training process as well. However, since there are likely co-expression relationships between genes, low-expression genes may still contribute to the estimation of the evaluation target.
 In this paper, we propose **Auxiliary Gene Learning** (AGL) that utilizes the benefit of the ignored genes by reformulating their expression estimation as auxiliary tasks and training them jointly with the primary tasks. To effectively leverage auxiliary genes, we must select a subset of auxiliary genes that positively influence the prediction of the evaluation genes.
