@@ -48,12 +48,12 @@ If you would like to run the comparative experiments, please execute the followi
 ```
 python ./script/main.py --module "AGL" --dataset 'TENX152'
 ```
-2. **Target-only** — Training with **only the target genes**
+2. **Primary-only** — Training with **only the primary genes**
 ```
 python ./script/main.py --module "PGL" --dataset 'TENX152'
 ```
 
-# Citation
+## Citation
 If you find this repository helpful, please consider citing:
 ```
 Comming soon !
