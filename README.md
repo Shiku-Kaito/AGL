@@ -8,12 +8,15 @@ Shikui Kaito, Kazuya Nishimura, Shinnosuke Matsuo, Yasuhiro Kojima, Ryoma Bise
 
 
 ## 📑 Abstract
-*Developing neural network models to estimate spatial gene expression from pathological images is important for overcoming the high observational costs associated with spatial gene expression data.
-In prior studies, only a small subset of highly variable genes has been used for expression estimation, despite tens of thousands of genes being observed, in order to enable evaluation that mitigates the impact of observational noise. Genes outside this subset have been excluded from the training process as well. However, since there are likely co-expression relationships between genes, low-expression genes may still contribute to the estimation of the evaluation target.
-In this paper, we propose **Auxiliary Gene Learning** (AGL) that utilizes the benefit of the ignored genes by reformulating their expression estimation as auxiliary tasks and training them jointly with the primary tasks. To effectively leverage auxiliary genes, we must select a subset of auxiliary genes that positively influence the prediction of the evaluation genes.
+*Spatial transcriptomics (ST) is a novel technology that enables the observation of gene expression at the resolution of individual spots within pathological tissues.
+ST quantifies the expression of tens of thousands of genes in a tissue section; however, heavy observational noise is often introduced during measurement.
+In prior studies, to ensure meaningful assessment, both training and evaluation have been restricted to only a small subset of highly variable genes, and genes outside this subset have also been excluded from the training process.
+However, since there are likely co-expression relationships between genes, low-expression genes may still contribute to the estimation of the evaluation target.
+In this paper, we propose $Auxiliary \ Gene \ Learning$ (AGL) that utilizes the benefit of the ignored genes by reformulating their expression estimation as auxiliary tasks and training them jointly with the primary tasks.
+To effectively leverage auxiliary genes, we must select a subset of auxiliary genes that positively influence the prediction of the target genes.
 However, this is a challenging optimization problem due to the vast number of possible combinations.
-To overcome this challenge, we propose **Prior-Knowledge-Based Differentiable Top-$k$ Gene Selection via Bi-level Optimization** (DkGSB), a method that ranks genes by leveraging prior knowledge and relaxes the combinatorial selection problem into a differentiable top-$k$ selection problem.
-The experiments demonstrate the effectiveness of incorporating auxiliary genes into the learning process and show that the proposed method outperforms conventional auxiliary task learning approaches.
+To overcome this challenge, we propose Prior-Knowledge-Based Differentiable Top-$k$ Gene Selection via Bi-level Optimization (DkGSB), a method that ranks genes by leveraging prior knowledge and relaxes the combinatorial selection problem into a differentiable top-$k$ selection problem.
+The experiments confirm the effectiveness of incorporating auxiliary genes and show that the proposed method outperforms conventional auxiliary task learning approaches.
 *
 
 ## ⬇️ Installation
