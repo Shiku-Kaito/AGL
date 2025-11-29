@@ -58,7 +58,7 @@ def main(args):
             top_genes_var_oneslide.obs["patch_index"] =  np.nan
             for code in top_genes_var_oneslide.obs_names:
                 try:
-                    idx = code_list.index("%s-%s" % (code, slide_id_list[slide_count]))
+                    idx = code_list.index("%s-%s" % (code, args.slide_ids[slide_count]))
                     top_genes_var_oneslide.obs.loc[code, "patch_index"] = int(idx)
                 except:
                     pass
