@@ -71,9 +71,9 @@ class Hest_Dataset(torch.utils.data.Dataset):
 
 def load_data(args): 
     # All genes (target + aux genes)
-    if args.module!="PGL":
+    if args.module=="PGL":
         all_gene_adata = sc.read('%s/data/preprocessed_data/hest_1slide/%s_top50_matching_patch_adata.h5ad' % (args.input_path, args.dataset))
-    elif args.module!="AGL":
+    elif args.module=="AGL":
         all_gene_adata = sc.read('%s/data/preprocessed_data/hest_1slide/%s_topall_matching_patch_adata.h5ad' % (args.input_path, args.dataset))
     all_gene_name = np.array(all_gene_adata.var.index)
     all_gene_num = all_gene_name.shape[0]
