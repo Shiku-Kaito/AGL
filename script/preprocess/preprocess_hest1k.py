@@ -7,6 +7,7 @@ import h5py
 import anndata as ad
 import numpy as np
 import argparse
+import os
 
 def main(args):
     for gene_num in args.gene_num:
@@ -30,7 +31,7 @@ def main(args):
             sc.pp.log1p(adata)  
 
             if gene_num==50:
-                sc.pp.highly_variable_genes(adata, n_top_genes=agene_num)            
+                sc.pp.highly_variable_genes(adata, n_top_genes=50)            
                 top_genes_var = adata[:, adata.var['highly_variable']]
             elif gene_num=="all":
                 top_genes_var = adata
