@@ -71,7 +71,7 @@ python ./script/main.py --module "PGL" --dataset 'TENX152' --is_evaluation 1
 
 ## 🔍 Citation
 If you find this repository helpful, please consider citing:
-※ Note: This citation will be updated with the official AAAI 2026 proceedings entry once it
+
 ```
 @article{shiku2025auxiliary,
   title={Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection},
@@ -80,6 +80,8 @@ If you find this repository helpful, please consider citing:
   year={2025}
 }
 ```
+
+※ Note: This citation will be updated with the official AAAI 2026 proceedings entry once it.
 
 # ✏️ Author
 @ Kaito Shiku
