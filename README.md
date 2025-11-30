@@ -1,7 +1,6 @@
 # Auxiliary Gene Learning 🧬
 "Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection", in **AAAI2026** 🎉🎉!
-
-**[paper](https://arxiv.org/abs/2511.18336)**
+**[arxiv](https://arxiv.org/abs/2511.18336)**
 
 Shikui Kaito, Kazuya Nishimura, Shinnosuke Matsuo, Yasuhiro Kojima, Ryoma Bise
 
