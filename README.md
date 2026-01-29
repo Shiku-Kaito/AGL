@@ -92,6 +92,3 @@ If you find this repository helpful, please consider citing:
 @ Shiku Kaito  
 ・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
 
-# ✏️ Author
-@ Kaito Shiku
-・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
