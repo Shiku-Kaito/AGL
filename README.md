@@ -87,6 +87,11 @@ If you find this repository helpful, please consider citing:
 
 ※ Note: This citation will be updated with the official AAAI 2026 proceedings entry once it.
 
+
+# ✏️ Author
+@ Shiku Kaito  
+・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
+
 # ✏️ Author
 @ Kaito Shiku
 ・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
