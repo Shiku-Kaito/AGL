@@ -92,3 +92,5 @@ If you find this repository helpful, please consider citing:
 @ Shiku Kaito  
 ・ Contact: kaito.shiku@human.ait.kyushu-u.ac.jp
 
+# License
+This repository is licensed under the MIT License.
