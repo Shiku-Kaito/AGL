@@ -83,6 +83,7 @@ If you find this repository helpful, please consider citing:
   journal={arXiv preprint arXiv:2511.18336},
   year={2025}
 }
+@article{Shiku_Nishimura_Matsuo_Kojima_Bise_2026, title={Auxiliary Gene Learning: Spatial Gene Expression Estimation by Auxiliary Gene Selection}, volume={40}, url={https://ojs.aaai.org/index.php/AAAI/article/view/37857}, number={11}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Shiku, Kaito and Nishimura, Kazuya and Matsuo, Shinnosuke and Kojima, Yasuhiro and Bise, Ryoma}, year={2026}, pages={9015-9023} }
 ```
 
 ※ Note: This citation will be updated with the official AAAI 2026 proceedings entry once it.
